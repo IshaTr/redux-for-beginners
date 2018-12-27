@@ -9,4 +9,4 @@ The action is minimal representation of the change to that data(state) in your a
 
 ## princliples
 1. Every data is stored in a single object that is called state or state tree.
-2. The state tree is redundant i.e. you can't write anything to it or modify it. To update the state you must dispatch an action
+2. The state tree is redundant i.e. you can't write anything to it or modify it. To change the state tree you must dispatch an action

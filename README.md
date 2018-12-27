@@ -7,6 +7,12 @@ The state tree or state is minimal representation of the data in your applicatio
 ## action
 The action is minimal representation of the change to that data(state) in your app. It's an object type. It should always be provided with a `type` value that defines the action type that should be a string.
 
+## store
+The store binds all the elements of the redux. It maintains state, let's you dispatch actions and eventually, perform mutations.
+
+## reducer
+These are the pure functions used to update the state tree by taking `previous state` and `action` as arguments and returning the `next state`.
+
 ## princliples
 1. Every data is stored in a single object that is called state or state tree.
 2. The state tree is redundant i.e. you can't write anything to it or modify it. To change the state tree you must dispatch an action

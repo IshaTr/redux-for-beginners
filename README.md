@@ -2,10 +2,10 @@
 This article is a brief overlook of redux principles and its application in a React application.
 
 ## state
-The state tree or state is minimal representation of the data in your application.
+The state tree or state is minimal representation of the data in your application. It's an object type.
 
 ## action
-The action is minimal representation of the change to that data(state) in your app.
+The action is minimal representation of the change to that data(state) in your app. It's an object type.
 
 ## princliples
 1. Every data is stored in a single object that is called state or state tree.

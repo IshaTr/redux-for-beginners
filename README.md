@@ -1,5 +1,5 @@
 # redux-for-beginnners
-This article is a brief overlook of redux principles and its application in a React application.
+This article is a brief overlook of redux principles and its application in a React application.Redux takes the concept of state mutation as a pure function that takes `previous state`, `action` and returns `new state`.
 
 ## state
 The state tree or state is minimal representation of the data in your application. It's an object type.

@@ -13,7 +13,7 @@ The store binds all the elements of the redux. It maintains state, let's you dis
 ## reducer
 These are the pure functions used to update the state tree by taking `previous state` and `action` as arguments and returning the `next state`.
 
-## princliples
+## principles
 1. Every data is stored in a single object that is called state or state tree.
 2. The state tree is redundant i.e. you can't write anything to it or modify it. To change the state tree you must dispatch an action
 3. To do the state mutation, redux uses a pure function that takes `previous state` and `action` as arguments and returns the `next state`. This function is called `reducer`.
